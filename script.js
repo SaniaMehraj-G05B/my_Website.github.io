@@ -1,7 +1,3 @@
-function showMessage() {
-    alert("Thanks for visiting my website!");
-}
-
-function scrollToSection(id) {
-    document.getElementById(id).scrollIntoView();
+function toggleDarkMode(){
+document.body.classList.toggle("dark");
 }
