@@ -35,12 +35,11 @@ grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
 gap:20px;
 }
 
-.card img {
-    transition: 0.3s;
+.cert-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
 }
-
-.card:hover img {
-    transform: scale(1.05);
 }
 .card{
 background:white;
