@@ -35,10 +35,7 @@ grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
 gap:20px;
 }
 
-.cert-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
+
 }
 .cert-container::-webkit-scrollbar {
     height: 8px;
