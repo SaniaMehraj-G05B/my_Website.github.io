@@ -34,18 +34,27 @@ display:grid;
 grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
 gap:20px;
 }
+.cert-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;   /* enables horizontal scroll */
+    padding: 20px;
+}
+
+.cert-card {
+    min-width: 250px;   /* important for one row */
+    flex: 0 0 auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.cert-card:hover {
+    transform: scale(1.05);
+}
 
 
-}
-.cert-container::-webkit-scrollbar {
-    height: 8px;
-}
-
-.cert-container::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 10px;
-}
-}
 .card{
 background:white;
 padding:20px;
