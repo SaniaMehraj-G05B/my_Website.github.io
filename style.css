@@ -142,18 +142,28 @@ color:white;
 }
 
 /* Button style (matches your theme) */
+/* Modern Navbar Buttons */
 nav button {
-    background: none;
+    background: rgba(255, 255, 255, 0.1);
     border: none;
     color: white;
-    padding: 12px;
+    padding: 12px 20px;
+    margin: 8px;
+    border-radius: 25px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    backdrop-filter: blur(10px);
 }
 
+/* Hover Glow */
 nav button:hover {
-    background: #444;
+    background: linear-gradient(135deg, #00f5ff, #9b5cff);
+    box-shadow: 0 0 15px #00f5ff;
+    transform: translateY(-2px);
 }
+
 .page {
     display: none;
 }
@@ -347,4 +357,9 @@ h3 {
 }
 #about me {
     letter-spacing: 0.5px;
+}
+/* Active Page Button */
+nav button.active {
+    background: linear-gradient(135deg, #00f5ff, #9b5cff);
+    box-shadow: 0 0 15px #00f5ff;
 }
