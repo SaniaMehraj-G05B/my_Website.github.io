@@ -314,3 +314,15 @@ h3 {
     padding: 20px;
     border-radius: 15px;
 }
+/* Bigger About text */
+#about p {
+    font-size: 18px;   /* you can increase to 20px if you want */
+    line-height: 1.7;  /* improves readability */
+}
+#about h2 {
+    font-size: 32px;
+}
+#about {
+    letter-spacing: 0.5px;
+}
+
