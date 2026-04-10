@@ -159,3 +159,25 @@ color:white;
 }
 .dark nav{background:#000}
 .dark .card{background:#1e1e1e}
+/* Page switching */
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+/* Button style (matches your theme) */
+nav button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav button:hover {
+    background: #444;
+}
