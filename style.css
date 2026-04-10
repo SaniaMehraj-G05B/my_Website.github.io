@@ -325,4 +325,26 @@ h3 {
 #about {
     letter-spacing: 0.5px;
 }
-
+/* About me section text white */
+#about me {
+    color: white;
+}
+#about me a {
+    color: #00f5ff;
+}
+#about me {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 15px;
+}
+/* Bigger About text */
+#about me p {
+    font-size: 18px;   /* you can increase to 20px if you want */
+    line-height: 1.7;  /* improves readability */
+}
+#about me h2 {
+    font-size: 32px;
+}
+#about me {
+    letter-spacing: 0.5px;
+}
