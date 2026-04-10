@@ -15,17 +15,14 @@ padding:40px;
 background:linear-gradient(135deg,#667eea,#764ba2);
 color:white;
 }
-.header {
-    background: #111;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
+
+
 .header-content {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px; /* increase spacing */
+    gap: 30px;
+    flex-wrap: wrap;   /* prevents overlap on small screens */
 }
 
 
