@@ -8,36 +8,101 @@
 </head>
 <body>
 
-<header class="header">
+<body>
 
+<header class="header">
   <div class="header-content">
     
-    <!-- Profile Image -->
     <div class="profile-circle">
       <img src="assets/profile.jpg" alt="Profile">
     </div>
 
-    <!-- Name -->
     <div>
-      <h1>Saniya Mehraj</h1>
-      <p>Student • Python Developer</p>
+      <h1>Hi!,Saniya Mehraj</h1>
+      <p>Btech CSE Student • Python Developer</p>
     </div>
 
   </div>
 
+  <!-- Navigation -->
   <nav>
-  <button onclick="showPage('about')">About</button>
-  <button onclick="showPage('projects')">Interests & Projects</button>
-  <button onclick="showPage('certificates')">Certificates</button>
-</nav>
+    <button onclick="showPage('about')">About</button>
+    <button onclick="showPage('projects')">Interests & Projects</button>
+    <button onclick="showPage('certificates')">Certificates</button>
+  </nav>
+</header>
 
-  <section id="projects" class="page">
-  <!-- your interests + projects content -->
+<!-- ================== PAGE 1 ================== -->
+<section id="about" class="page active">
+  <h2>About Me</h2>
+  <p>
+    I am a highly motivated and curious B.Tech first-year student at MIT Vishwaprayag University with a strong interest in emerging technologies. I have built a foundational understanding of programming through Python and completed certified courses in MATLAB, Engineering Physics, and Artificial Intelligence.
+
+I am passionate about exploring how intelligent systems work and how technology can be used to solve real-world problems. I enjoy learning new concepts, experimenting with ideas, and continuously upgrading my skills in the fields of AI, Machine Learning, and Cybersecurity.
+
+
+  </p>
+
+  <p>
+    I study at MIT-VPU Solapur and have strong interest in web development.
+  </p>
 </section>
 
-  <section id="certificates" class="page">
-  <!-- your certificates + achievements -->
+<!-- ================== PAGE 2 ================== -->
+<section id="projects" class="page">
+  <h2>Interests & Projects</h2>
+
+  <div class="grid">
+    <div class="card">Reimbursement Workflow (Python)</div>
+    <div class="card">AI Smart Study Scheduling system</div>
+    <div class="card">Construction Problem Solutions</div>
+  </div>
 </section>
+
+<!-- ================== PAGE 3 ================== -->
+<section id="certificates" class="page">
+  <h2>Certificates & Achievements</h2>
+
+  <div class="cert-container">
+
+    <div class="cert-card">
+      <img src="assets/cert1.jpg">
+      <p>Yuva AI for All</p>
+    </div>
+
+    <div class="cert-card">
+      <img src="assets/cert2.jpg">
+      <p>Introduction to Modern AI</p>
+    </div>
+
+    <div class="cert-card">
+      <img src="assets/cert3.jpg">
+      <p>Web Development</p>
+    </div>
+
+    <div class="cert-card">
+      <img src="assets/cert4.jpg">
+      <p>Workshop</p>
+    </div>
+
+    <div class="cert-card">
+      <img src="assets/cert5.jpg">
+      <p>Hackathon</p>
+    </div>
+
+  </div>
+
+  <div class="card" style="margin-top:20px;">
+    Completed Coursera, NetAcad, and Yuva AI courses
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Saniya Mehraj</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
 
 
 <nav>
