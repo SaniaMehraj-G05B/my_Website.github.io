@@ -80,18 +80,19 @@ padding:40px 20px;
 max-width:900px;
 margin:auto;
 }
-h2{text-align:center;margin-bottom:20px}
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:20px;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;   /* ⭐ more spacing */
 }
 .cert-container {
     display: flex;
     gap: 20px;
-    overflow-x: auto;   /* enables horizontal scroll */
+    overflow-x: auto;
     padding: 20px;
+    margin-top: 20px;   /* ⭐ add spacing */
 }
+
 
 .cert-card {
     min-width: 250px;   /* important for one row */
@@ -165,11 +166,11 @@ nav button:hover {
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
-section{
-    padding:40px 20px;
-    max-width:900px;
-    margin:30px auto;
-    border-radius:20px;
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 40px auto;   /* adds space between sections */
+    border-radius: 20px;
 }
 body::before {
     content: "";
@@ -282,4 +283,22 @@ h3 {
 .project-card p {
     padding: 0 10px 15px;
     font-size: 14px;
+}
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;   /* ⭐ IMPORTANT */
+}
+.cert-card {
+    min-width: 250px;
+    flex: 0 0 auto;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;   /* ⭐ IMPORTANT */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+* {
+    box-sizing: border-box;
 }
