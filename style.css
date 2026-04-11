@@ -382,3 +382,43 @@ nav button.active {
 .contact-box a:hover {
     text-decoration: underline;
 }
+/* Contact Box CENTERED */
+#about .contact-box {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 500px;
+    text-align: center;
+
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+/* Text */
+#about .contact-box p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: white;
+}
+
+/* Links */
+#about .contact-box a {
+    color: #00f5ff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#about .contact-box a:hover {
+    text-decoration: underline;
+}
+
+/* Heading */
+#about .contact-box h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+#about .contact-box p {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
