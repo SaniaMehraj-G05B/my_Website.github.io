@@ -363,3 +363,22 @@ nav button.active {
     background: linear-gradient(135deg, #00f5ff, #9b5cff);
     box-shadow: 0 0 15px #00f5ff;
 }
+/* Contact Box */
+.contact-box {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    color: white;
+}
+
+.contact-box a {
+    color: #00f5ff;
+    text-decoration: none;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+}
